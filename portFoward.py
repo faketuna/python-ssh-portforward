@@ -10,13 +10,14 @@ sshKeyFile = f'{userDir}\\.ssh\\id_rsa'
 # SSHキーのパスワード
 sshKeyPassword = ""
 
+# リモートのアドレス/ポート
 SSHRemoteAddr = ''
 SSHRemotePort = 18660
 
 # 接続するユーザー名
 userName = ''
 
-# プロキシ側のポート
+# リモートのポート
 RemoteForwardAddress = 8000
 # 自分のPCのポート
 LocalForwardAddress = 8000
