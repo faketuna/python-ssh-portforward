@@ -1,6 +1,5 @@
 from sshtunnel import SSHTunnelForwarder
 import time
-import asyncio
 import os
 import math
 
