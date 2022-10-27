@@ -31,7 +31,8 @@ def main():
         ssh_private_key_password=sshKeyPassword,
         remote_bind_address=("127.0.0.1", RemoteForwardAddress),
         local_bind_address=("localhost", LocalForwardAddress),
-        set_keepalive=60.0
+        set_keepalive=60.0,
+        mute_exceptions=True
     )
     startTime = time.time()
     sessionTime = time.time()
