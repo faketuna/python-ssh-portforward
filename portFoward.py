@@ -10,7 +10,7 @@ sshKeyFile = f'{userDir}\\.ssh\\id_rsa'
 # SSHキーのパスワード
 sshKeyPassword = ""
 
-# リモートのアドレス/ポート
+# リモートのSSHアドレス/ポート
 SSHRemoteAddr = ''
 SSHRemotePort = 18660
 
