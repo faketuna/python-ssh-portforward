@@ -34,6 +34,7 @@ def main():
         set_keepalive=60.0,
         mute_exceptions=True
     )
+    server.logger.disabled = True
     startTime = time.time()
     sessionTime = time.time()
     runAllowed = True
